@@ -1,4 +1,5 @@
-**Everything should use generational storage rather than raw indexes**
+* **Everything should use generational indexes like slotmap rather than raw indexes**
+* Also find a way to make the underlying storage into a singleton otherwise it defeats the whole purpose of Dense Rc/Arc
 
 ---
 
